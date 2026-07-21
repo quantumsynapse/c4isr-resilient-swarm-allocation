@@ -1,0 +1,16 @@
+# CONFIGURACAO DE REFERENCIA
+# Valores dimensionais abstratos.
+
+agentes=18
+acoes_por_cenario=36
+episodios=3000
+semente=1995
+rodadas_leilao=4
+simbolos_minimos=4
+simbolos_maximos=12
+campo_finito=GF(2^8)
+polinomio=0x11d
+perda_global_minima=0.025
+perda_global_maxima_aproximada=0.325
+agentes_degradados_poisson=1.4
+agentes_degradados_maximo=4

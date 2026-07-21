@@ -1,0 +1,55 @@
+SIMULACAO C4ISR SINTETICA
+==========================
+
+episodios_por_estrategia=3000
+estrategias=5
+episodios_estrategia_total=15000
+agentes_por_cenario=18
+acoes_por_cenario=36
+semente=1995
+
+[central_global_rlnc]
+conclusao_informacional=0.890417 [0.888343, 0.892490]
+valor_entregue=0.892878 [0.890570, 0.895186]
+continuidade=0.908642 [0.906818, 0.910466]
+pacotes_por_acao=10.870093
+aceitacoes_degradadas=0.002458
+reatribuicoes=0.102287
+
+[gulosa_distribuida]
+conclusao_informacional=0.535222 [0.530985, 0.539459]
+valor_entregue=0.534779 [0.530228, 0.539330]
+continuidade=0.639594 [0.636241, 0.642947]
+pacotes_por_acao=8.053926
+aceitacoes_degradadas=0.075578
+reatribuicoes=0.114287
+
+[leilao_distribuido]
+conclusao_informacional=0.495481 [0.490759, 0.500204]
+valor_entregue=0.491250 [0.486231, 0.496268]
+continuidade=0.605916 [0.602164, 0.609669]
+pacotes_por_acao=257.261407
+aceitacoes_degradadas=0.340559
+reatribuicoes=0.134065
+
+[leilao_resiliente_sem_codigo]
+conclusao_informacional=0.727750 [0.724755, 0.730745]
+valor_entregue=0.728806 [0.725466, 0.732146]
+continuidade=0.785981 [0.783503, 0.788460]
+pacotes_por_acao=260.190306
+aceitacoes_degradadas=0.007366
+reatribuicoes=0.101870
+
+[carma_rlnc_adaptativa]
+conclusao_informacional=0.886231 [0.884130, 0.888333]
+valor_entregue=0.888031 [0.885688, 0.890373]
+continuidade=0.905228 [0.903384, 0.907071]
+pacotes_por_acao=351.892389
+aceitacoes_degradadas=0.007186
+reatribuicoes=0.101731
+
+[HIPOTESE PRINCIPAL]
+proposta_menos_robusta_conclusao=0.158481 [0.155356, 0.161607]
+proposta_menos_robusta_valor=0.159224 [0.155691, 0.162758]
+proposta_menos_robusta_continuidade=0.119246 [0.116637, 0.121856]
+hipotese_suportada=sim

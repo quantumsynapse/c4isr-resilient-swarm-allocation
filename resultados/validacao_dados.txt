@@ -1,0 +1,21 @@
+VALIDACAO DOS DADOS SINTETICOS
+================================
+
+semente=1995
+cenarios=3000
+registros_agente=54000
+registros_acao=108000
+cenarios_invalidos=0
+perda_global_media=0.13811535
+perda_global_minima=0.02500006
+perda_global_maxima=0.32477620
+agentes_degradados_media=1.35300000
+maior_componente_media=0.99885185
+energia_inicial_media=0.83993971
+saude_inicial_media=0.88690502
+valor_acao_media=33.14480056
+valor_acao_minimo=12.00000000
+valor_acao_maximo=120.00000000
+prazo_acao_media=38.99256746
+complexidade_media=0.59997318
+status=aprovado
